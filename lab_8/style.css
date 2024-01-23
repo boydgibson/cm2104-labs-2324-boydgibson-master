@@ -1,0 +1,87 @@
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern sans-serif font */
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2c3e50; /* Use a modern color */
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+  text-transform: uppercase; /* Uppercase text for links */
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+  font-weight: bold; /* Make the logo bold */
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li {
+  padding: 5px 14px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.menu li:hover {
+  background-color: #34495e; /* Darken the background on hover */
+  border-radius: 5px;
+}
+
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+}
+
+.dropdown {
+  background-color: #2c3e50;
+  padding: 1em 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 100%; /* Adjusted positioning */
+  left: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #34495e;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+

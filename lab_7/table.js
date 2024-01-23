@@ -1,0 +1,4 @@
+$(function(){
+    $(tr.odd)
+
+});

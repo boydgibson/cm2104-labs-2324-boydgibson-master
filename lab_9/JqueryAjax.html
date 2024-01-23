@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Get Lit - Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="finalScript.js"></script>
+    <style>
+        /* Add your additional CSS styles here */
+    </style>
+</head>
+
+<body id="base">
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Get Lit</div>
+
+            <ul class="nav-links">
+                <div class="menu">
+                    <li><a href="JqueryAjax.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cotd.html">Cocktail of The Day</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <form id="searchform">
+                            <input type="text" id="searchterms">
+                            <input type="submit" value="Search">
+                        </form>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <img src="cocktail.jpg" alt="Cocktail Image">
+            <div class="text-block">
+                <p>Welcome to Get Lit, your destination for exquisite cocktails!</p>
+                <div id="resultsbox">
+                    <ol id="results">
+                        <!-- Content will be loaded here -->
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+
+    <script src="finalScript.js"></script>
+</body>
+
+</html>

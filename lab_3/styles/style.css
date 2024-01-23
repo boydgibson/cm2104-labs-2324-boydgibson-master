@@ -1,0 +1,32 @@
+body {
+    margin:auto;
+    width:80%;
+   }
+
+
+   header, section, article, nav, aside,
+   footer, div {
+    font-family: sans-serif;
+    border: 1px dotted #000;
+    padding: 10px;
+    margin: 10px;
+   }
+
+   .warninig{font-weight: bold;}
+
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  img {
+    width: 50px;
+    border: 2px solid gray;
+    padding: 5px;
+  }
+  img:hover {
+     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+  }
