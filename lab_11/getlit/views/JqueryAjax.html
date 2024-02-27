@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Add security measures: Content Security Policy (CSP) and other security-related meta tags -->
+    
+    <link rel="stylesheet" href="../public/style.css" />
+    <title>Get Lit - Home</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../public/finalScript.js"></script>
+
+
+
+    <style>
+        /* Add additional CSS styles here */
+    </style>
+</head>
+
+<body id="base">
+    <nav class="navbar">
+      <div class="logo">Get Lit</div>
+      <ul class="nav-links">
+        <div class="menu">
+          <li><a href="JqueryAjax.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cotd.html">Cocktail of The Day</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <form id="searchform">
+            <input type="text" id="searchterms" placeholder="Search for cocktails" />
+            <input type="submit" id="searchbutton" value="Search" />
+          </form>
+        </div>
+      </ul>
+    </nav>
+  
+    <main>
+      <div class="container">
+        <img src="../public/imgs/cocktail.jpg" alt="Cocktail Image" />
+        <div class="text-block">
+          <p>Welcome to Get Lit, your destination for exquisite cocktails!</p>
+          <div id="resultsbox">
+            <ol id="results">
+              <!-- Content will be loaded here -->
+            </ol>
+          </div>
+        </div>
+      </div>
+    </main>
+  
+    <footer>
+      <!-- Footer content goes here -->
+    </footer>
+  
+    <!-- Add your scripts and other content here -->
+  </body>
+  
+  </html>
